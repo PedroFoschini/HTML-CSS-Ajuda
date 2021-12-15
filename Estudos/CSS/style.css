@@ -6,11 +6,16 @@
     display: block;
 }
 
-.Ícone{
+.icone{
     border: solid blue;
     margin: 0px auto;
     display: inline-block;
+    width: auto;
     
+}
+
+#imagemCSS{
+    float: left;
 }
 
 #Ferramenta{
@@ -21,6 +26,9 @@
 /* ===============
    Menu de Navegação
    =============== */
+#navegacao {
+    min-width: 750px;
+}
 
 .site-nav {
     display: block;
@@ -29,6 +37,7 @@
     background-color: #f9f9ff;
     border-radius: 0.2em;
     margin-left: 0px;
+    width: auto;
 }
 
 .site-nav > li {
@@ -38,7 +47,7 @@
 }
 
 .site-nav > li > a {
-    display: block;
+    display: inline-block;
     padding: 2em 2em;
     background-color: #eee;
     color: #9aa1b1;
